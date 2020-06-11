@@ -25,7 +25,6 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 install_requires = [
-    'requests >= 2.6.1, < 2.8',
     'docker',
     'python-crontab'
 ]
